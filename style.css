@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+body{
+    background-image: url(images/fon2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    position: relative;
+    background-color: #72a7c888;
+}
+
+header a{
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    
+}
+.logo{
+    color: aqua;
+    border-color: blue;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
+.logo:hover{
+    color: blue;
+    transform-origin: center;
+    transform: scaleX(-90deg) translateY(100%);
+}
+
+.nomer{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    font-family: 'Pacifico', cursive;
+}
+.nomer>a{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+   
+}
+.nomer>a:hover{
+    background-color: #bd9797;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    width: 60%;
+}
+
+.anime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100;
+    width: 60%;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 2%;
+}
+.anime img {
+    width: 100%;
+}
+.text{
+    display: flex;
+    justify-self: center;
+    background-color: #72a7c888;
+}
+.text::after{
+    content: "";
+}
+#wikipedia{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+#zagonka{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+.text{
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #72a7c888;
+    height: 100%;
+    width: 100%;
+    padding:10px 0;
+    text-align: center;
+    color:white;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#zagonka:hover{
+    color: blue;
+    background-color: #bd9797;
+}
+#wikipedia:hover{
+    color: blue;
+    background-color: #bd9797;
+}
+#opening{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+#opening:hover{
+    color: blue;
+    background-color: #bd9797;
+}
+#info{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-image: url(pictures/fon.png)
+}
+
+@media (min-width: 320px) { 
+    
+}
+
+
+@media (min-width: 768px) { 
+
+}
+
+
+@media (min-width: 1200px) { 
+  
+}
+
+
+@media (min-width: 1400px) { 
+
+}
+input {
+    display: none;
+}
+input:checked~text {
+    font-weight: 100;
+    
+}
+label {
+    background-image: url("images/eye2.png");
+    background-size: contain;
+    width: 50px; height: 50px;
+}
+input:checked~ main article div .text { 
+    font-size: 2em;
+    font-weight: 600;
+}
+.carousel {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 1%;
+}
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+.image {
+    width: 100%;
+}
+.arrow {
+    width: 10%;
+}
+.title {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.carousel__item {
+    background-color: #72a7c888;
+}
+
+.elementy {
+        color: brown; 
+        background: #fff0f0; 
+        padding: 10px; 
+        font-size: 20px; 
+        border-radius: 5px; 
+        box-shadow: 0px 1px 3px; 
+        -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        
+        .elementy:hover { 
+        -webkit-transform: translate(10px);
+        transform: translate(10px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
+}
