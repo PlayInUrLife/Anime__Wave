@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 body{
-    background-image: url(fon2.jpeg);
+    background-image: fon2.jpeg;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
